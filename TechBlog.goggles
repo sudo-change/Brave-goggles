@@ -32,14 +32,16 @@ $boost=3,site=hacks.mozilla.org
 $boost=3,site=news.ycombinator.com
 $boost=3,site=lobste.rs
 $boost=3,site=twitter.com
-reddit.com
+$boost=3,site=reddit.com
+
 
 
 ! misc
 $boost=2,site=dzone.com
 $boost=2,site=nocsdegree.com
-turtle.community
-asia.siggraph.org
+$boost=2,site=turtle.community
+
+
 
 ! Boost tech conference websites
 !$boost=3,site=conferences.oreilly.com
@@ -65,6 +67,7 @@ asia.siggraph.org
 !$boost=2,site=twitch.tv
 
 ! Boost specific popular developer blogs
+$boost=3,site=asia.siggraph.org
 $boost=3,site=linusakesson.net
 $boost=3,site=flak.tedunangst.com
 $boost=3,site=alistapart.com
